@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1rem;
+    color: white;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+.clone{
+    width: 40%;
+    height: 100%;
+    border: 2px solid black;
+    background-color: #363432;
+    border-radius: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    width: 80%;
+    height: 13%;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+header h1{
+    font-size: 3.5rem;
+}
+header h2{
+    font-size: 2rem;
+    margin-left: 2.5rem;
+}
+.line1{
+    width: 80%;
+}
+footer{
+    height: 17%;
+}
+main{
+    height: 70%;
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.avlblnc{
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+footer input{
+    padding: .9rem 1.6rem;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    height: 4.2rem;
+    font-size: 1.8rem;
+    width: 48%;
+    border: .1rem solid #64706e;
+    background-color: #363432;
+    color: white;
+
+}
+footer input:required:valid {
+    border: 1px solid #419ef0;
+}
+#number{
+    margin-left: 1.5rem;
+}
+#number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.status{
+    margin-top: 1rem;
+}
+.btn{
+    height: 5rem;
+    width: 48%;
+    border-radius:1.5rem;
+    padding: .8rem 1.3rem;
+    border: none;
+    color: white;
+    font-size: 2.2rem;
+}
+#debit{
+    margin-left: 1.5rem;
+    background-color: rgb(185, 37, 37);
+
+}
+#debit:hover{
+    background-color: red;
+}
+#credit{
+    background-color: rgb(28, 90, 28);
+
+}
+#credit:hover{
+    background-color: green;
+}
+.hide{
+    display: none;
+}
+.slip{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.2);
+}
+.slips{
+    margin-top: 2rem;
+    width: 100%;
+    overflow:auto;
+    height: 74%;
+}
+.slips::-webkit-scrollbar-thumb{
+    background-color: #292725;
+    border-radius: 1rem;
+}
+
+.slips::-webkit-scrollbar-thumb:active{
+    background-color: #181717;
+}
+.slips::-webkit-scrollbar {
+    width: 10px; 
+}
+.arrow{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.arrow i{
+    margin-right: .9rem;
+}
+.sliptext{
+    width: 60%;
+    font-size: 1.2rem;
+}
+.slipamount{
+    width: 25%;
+    font-size: 1.5rem;
+}
+.slipamount p{
+    margin-left:2rem ;
+}
+#arrowdown{
+    color: green;
+}
+#arrowup{
+    color: red;
+}
+#diffinamountcredit{
+    color: green;
+}
+#diffinamountdebit{
+    color:red;
+}
+
+
+
